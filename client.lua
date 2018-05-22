@@ -139,7 +139,7 @@ function ListVehiclesMenu()
 				menu.close()
 				SpawnVehicle(data.current.value.vehicle)
 			else
-				TriggerEvent('esx:showNotification', 'Your vehicle/boat is already out')
+				TriggerEvent('esx:showNotification', 'Your boat is already out')
 			end
 		end,
 		function(data, menu)
@@ -165,13 +165,13 @@ function StockVehicleMenu()
 				TriggerServerEvent('eden_boatgarage:debug', vehicle)
 				DeleteVehicle(vehicle)
 				TriggerServerEvent('eden_boatgarage:modifystate', vehicleProps, true)
-				TriggerEvent('esx:showNotification', 'Your vehicle/boat is in the garage')
+				TriggerEvent('esx:showNotification', 'Your boat is in the garage')
 			else
-				TriggerEvent('esx:showNotification', 'You can not store this vehicle/boat')
+				TriggerEvent('esx:showNotification', 'You can not store this boat')
 			end
 		end,vehicleProps)
 	else
-		TriggerEvent('esx:showNotification', 'There is no vehicle to enter')
+		TriggerEvent('esx:showNotification', 'There is no boat to enter')
 	end
 
 end
