@@ -23,7 +23,6 @@ start esx_eden_boatgarage
 
 - Some vehicles are impossible to enter
 - By looking good it is possible to duplicate vehicles
-- UNABLE TO STORE VEHICLE (NEED HELP FIXING THIS ISSUE)
 
 # How to use my version
 To put the vehicle in the garage:
