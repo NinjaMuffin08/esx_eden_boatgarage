@@ -156,7 +156,7 @@ function StockVehicleMenu()
 	local playerPed  = GetPlayerPed(-1)
 	if IsAnyVehicleNearPoint(this_Garage.DeletePoint.Pos.x,  this_Garage.DeletePoint.Pos.y,  this_Garage.DeletePoint.Pos.z,  3.5) then
 
-		local vehicle       = GetClosestVehicle(this_Garage.DeletePoint.Pos.x, this_Garage.DeletePoint.Pos.y, this_Garage.DeletePoint.Pos.z, this_Garage.DeletePoint.Size.x, 0, 70)
+		local vehicle       = GetClosestVehicle(this_Garage.DeletePoint.Pos.x, this_Garage.DeletePoint.Pos.y, this_Garage.DeletePoint.Pos.z, this_Garage.DeletePoint.Size.x, 0, 12294)
 		local vehicleProps  = ESX.Game.GetVehicleProperties(vehicle)
 
 		ESX.TriggerServerCallback('eden_boatgarage:stockv',function(valid)
