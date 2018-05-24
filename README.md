@@ -1,5 +1,5 @@
 # esx_eden_boatgarage
-Private Boat Garage based on ESX
+Boat Garage based on ESX
 
 This Garage Script only takes into account the Boats Purchased in the Boat Shop. Players can also go to the Boat Pound to retrieve their Boat if its lost or Destroyed for a Fee. During a reboot all Vehicles go back home.
 
