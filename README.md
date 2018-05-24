@@ -6,7 +6,7 @@ This Garage Script only takes into account the Boats Purchased in the Boat Shop.
 # Requirement:
 
 * Boat Shop
-  * esx_eden_boatgarage => https://github.com/HumanTree92/esx_eden_boatgarage
+  * esx_boatshop => https://github.com/HumanTree92/esx_boatshop
 
 # Installation
 
