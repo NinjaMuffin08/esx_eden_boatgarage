@@ -25,12 +25,17 @@ start esx_eden_boatgarage
 - It is Possible to Duplicate Vehicles but do note that if said Person Duplicates a Vehicle & takes 1 of them & sell thems the other one is useless & can NOT be stored or sold.
 
 # How to use my version
-To put the vehicle in the garage:
+To store the Boat in the Garage:
 - Pull into the red dot
 - Open the menu
-- Select Return vehicle
+- Select Return Vehicle
 
-To take it back out
+To take a Boat back out:
 - Walk into the green dot
 - Open the menu
 - Select View Vehicle List
+
+To retrieve a Boat from the Pound:
+- Walk into the blue dot
+- Open the menu
+- Select the Boat from the list
