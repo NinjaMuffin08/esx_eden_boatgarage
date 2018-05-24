@@ -1,11 +1,12 @@
 # esx_eden_boatgarage
 Private Boat Garage based on ESX
 
-The garage only takes into account the vehicles purchased in the dealership and also the vehicles that are outside or outside.
-During a reboot all vehicles go back home.
+This Garage Script only takes into account the Boats Purchased in the Boat Shop. Players can also go to the Boat Pound to retrieve their Boat if its lost or Destroyed for a Fee. During a reboot all Vehicles go back home.
 
 # Requirement:
-FXServer-esx_vehicleshop
+
+* Boat Shop
+  * esx_eden_boatgarage => https://github.com/HumanTree92/esx_eden_boatgarage
 
 # Installation
 
@@ -21,16 +22,15 @@ start esx_eden_boatgarage
 
 # KNOWN BUG:
 
-- Some vehicles are impossible to enter
-- By looking good it is possible to duplicate vehicles
+- It is Possible to Duplicate Vehicles but do note that if said Person Duplicates a Vehicle & takes 1 of them & sell thems the other one is useless & can NOT be stored or sold.
 
 # How to use my version
 To put the vehicle in the garage:
 - Pull into the red dot
-- Get out of the car, open the menu
-- Select "Put Vehicle In Garage"<br />
+- Open the menu
+- Select Return vehicle
 
 To take it back out
-- Walk into the red dot
+- Walk into the green dot
 - Open the menu
-- Select "Get Vehicle From Garage"
+- Select View Vehicle List
