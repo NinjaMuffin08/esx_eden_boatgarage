@@ -1,6 +1,8 @@
 # esx_eden_boatgarage
 Boat Garage based on ESX
 
+I did NOT create the Code. I only edited the code to create this.
+
 This Garage Script only takes into account the Boats Purchased in the Boat Shop. Players can also go to the Boat Pound to retrieve their Boat if its lost or Destroyed for a Fee. During a reboot all Vehicles go back home.
 
 # Requirement:
@@ -39,3 +41,7 @@ To retrieve a Boat from the Pound:
 - Walk into the blue dot
 - Open the menu
 - Select the Boat from the list
+
+# Credits/Original Code
+* snyx95 => https://github.com/snyx95
+  * esx_eden_garage => https://github.com/snyx95/esx_eden_garage
